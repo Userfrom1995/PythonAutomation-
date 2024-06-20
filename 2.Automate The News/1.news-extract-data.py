@@ -24,6 +24,8 @@ options.add_argument("--log-level=3")
 options.add_argument("--silent")
 options.add_argument("--headless")  # Enable headless mode
 
+driver_wait_timeout = 20  # 20 seconds
+
 # Initialize Chrome webdriver with options
 driver = webdriver.Chrome( options=options)
 
